@@ -1,31 +1,31 @@
-"C:\Users\hviei\Documents\GitHub\EK-TM4C1294_IAR8\Projects\simple_io_main_sp\src\simple_io_main_sp.c"
+"C:\Users\davik\Desktop\9_Periodo\Sistemas_Embarcados\Projetos\Workspace2\EK-TM4C1294_IAR8\Projects\simple_io_main_sp\src\simple_io_main_sp.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\Users\hviei\Documents\GitHub\EK-TM4C1294_IAR8\Projects\simple_io_main_sp\Debug\Obj\simple_io_main_sp.pbi.dep
+C:\Users\davik\Desktop\9_Periodo\Sistemas_Embarcados\Projetos\Workspace2\EK-TM4C1294_IAR8\Projects\simple_io_main_sp\Debug\Obj\simple_io_main_sp.pbi.dep
 -o
 simple_io_main_sp.pbi
 -I
-C:\Users\hviei\Documents\GitHub\EK-TM4C1294_IAR8\Projects\simple_io_main_sp\src
+C:\Users\davik\Desktop\9_Periodo\Sistemas_Embarcados\Projetos\Workspace2\EK-TM4C1294_IAR8\Projects\simple_io_main_sp\src
 -I
-C:\Users\hviei\Documents\GitHub\EK-TM4C1294_IAR8\Projects\simple_io_main_sp\..\..\TivaWare_C_Series-2.1.4.178\
+C:\Users\davik\Desktop\9_Periodo\Sistemas_Embarcados\Projetos\Workspace2\EK-TM4C1294_IAR8\Projects\simple_io_main_sp\..\..\TivaWare_C_Series-2.1.4.178\
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.5\arm\CMSIS\Core\Include\
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\CMSIS\Core\Include\
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.5\arm\CMSIS\DSP\Include\
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\CMSIS\DSP\Include\
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.5\arm\inc
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.5\arm\inc\c
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c
 -I
-C:\Users\hviei\Documents\GitHub\EK-TM4C1294_IAR8\TivaWare_C_Series-2.1.4.178
+C:\Users\davik\Desktop\9_Periodo\Sistemas_Embarcados\Projetos\Workspace2\EK-TM4C1294_IAR8\TivaWare_C_Series-2.1.4.178
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.5\arm\CMSIS\Core\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\CMSIS\Core\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.5\arm\CMSIS\DSP\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\CMSIS\DSP\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -318,8 +318,8 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.5\arm\CMSIS\DSP\Include
 -D__EDG_FLOAT80_ENABLING_POSSIBLE=0
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -D__EDG_INT128_EXTENSIONS_ALLOWED=0
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.5\arm\inc\c\DLib_Config_Normal.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.5\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.50.9.278/W32 for ARM"
 -D_VA_DEFINED=
 -D_VA_LIST=struct __va_list

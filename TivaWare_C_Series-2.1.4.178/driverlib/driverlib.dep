@@ -4,6 +4,642 @@
     <fileChecksum>3872410436</fileChecksum>
     <configuration>
         <name>Debug</name>
-        <outputs />
+        <outputs>
+            <file>$PROJ_DIR$\crc.c</file>
+            <file>$PROJ_DIR$\hibernate.c</file>
+            <file>$PROJ_DIR$\cpu.c</file>
+            <file>$PROJ_DIR$\comp.c</file>
+            <file>$PROJ_DIR$\i2c.c</file>
+            <file>$PROJ_DIR$\mpu.c</file>
+            <file>$PROJ_DIR$\des.c</file>
+            <file>$PROJ_DIR$\onewire.c</file>
+            <file>$PROJ_DIR$\fpu.c</file>
+            <file>$PROJ_DIR$\pwm.c</file>
+            <file>$PROJ_DIR$\qei.c</file>
+            <file>$PROJ_DIR$\eeprom.c</file>
+            <file>$PROJ_DIR$\flash.c</file>
+            <file>$PROJ_DIR$\emac.c</file>
+            <file>$PROJ_DIR$\epi.c</file>
+            <file>$PROJ_DIR$\lcd.c</file>
+            <file>$PROJ_DIR$\shamd5.c</file>
+            <file>$PROJ_DIR$\ssi.c</file>
+            <file>$PROJ_DIR$\sw_crc.c</file>
+            <file>$PROJ_DIR$\sysctl.c</file>
+            <file>$PROJ_DIR$\sysexc.c</file>
+            <file>$PROJ_DIR$\systick.c</file>
+            <file>$PROJ_DIR$\uart.c</file>
+            <file>$PROJ_DIR$\gpio.c</file>
+            <file>$PROJ_DIR$\timer.c</file>
+            <file>$PROJ_DIR$\usb.c</file>
+            <file>$PROJ_DIR$\udma.c</file>
+            <file>$PROJ_DIR$\watchdog.c</file>
+            <file>$PROJ_DIR$\interrupt.c</file>
+            <file>$PROJ_DIR$\adc.c</file>
+            <file>$PROJ_DIR$\aes.c</file>
+            <file>$PROJ_DIR$\can.c</file>
+            <file>$PROJ_DIR$\sysctl.h</file>
+            <file>$PROJ_DIR$\eeprom.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_ssi.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_gpio.h</file>
+            <file>$PROJ_DIR$\gpio.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_types.h</file>
+            <file>$PROJ_DIR$\debug.h</file>
+            <file>$PROJ_DIR$\flash.h</file>
+            <file>$PROJ_DIR$\ssi.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_memmap.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_eeprom.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_flash.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_ccm.h</file>
+            <file>$PROJ_DIR$\crc.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_qei.h</file>
+            <file>$PROJ_DIR$\mpu.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_epi.h</file>
+            <file>$PROJ_DIR$\epi.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_emac.h</file>
+            <file>$PROJ_DIR$\aes.h</file>
+            <file>$PROJ_DIR$\sw_crc.h</file>
+            <file>$PROJ_DIR$\emac.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_pwm.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_nvic.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_aes.h</file>
+            <file>$PROJ_DIR$\qei.h</file>
+            <file>$PROJ_DIR$\pwm.h</file>
+            <file>$PROJ_DIR$\udma.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_ints.h</file>
+            <file>$PROJ_DIR$\interrupt.h</file>
+            <file>$PROJ_DIR$\comp.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_lcd.h</file>
+            <file>$PROJ_DIR$\lcd.h</file>
+            <file>$PROJ_DIR$\shamd5.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_sysexc.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_shamd5.h</file>
+            <file>$PROJ_DIR$\timer.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_udma.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_timer.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_comp.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\shamd5.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\ssi.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\sw_crc.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\sysctl.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\epi.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\des.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\flash.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\hibernate.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\eeprom.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\interrupt.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\i2c.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\adc.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\comp.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\aes.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\lcd.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\emac.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\pwm.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\crc.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\qei.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\mpu.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\can.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\cpu.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\fpu.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\onewire.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\uart.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\watchdog.o</file>
+            <file>$PROJ_DIR$\ewarm\Exe\driverlib.a</file>
+            <file>$PROJ_DIR$\ewarm\Obj\systick.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\udma.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\timer.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\usb.o</file>
+            <file>$PROJ_DIR$\..\inc\hw_can.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\sysexc.o</file>
+            <file>$PROJ_DIR$\can.h</file>
+            <file>$PROJ_DIR$\onewire.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_onewire.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\cpu.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_uart.h</file>
+            <file>$PROJ_DIR$\uart.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_usb.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\time32.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_hibernate.h</file>
+            <file>$PROJ_DIR$\hibernate.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_i2c.h</file>
+            <file>$PROJ_DIR$\adc.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_sysctl.h</file>
+            <file>$PROJ_DIR$\fpu.h</file>
+            <file>$PROJ_DIR$\i2c.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_adc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\usb.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_des.h</file>
+            <file>$PROJ_DIR$\des.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_watchdog.h</file>
+            <file>$PROJ_DIR$\systick.h</file>
+            <file>$PROJ_DIR$\watchdog.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>IARCHIVE</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 45 42 37 46 38</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\hibernate.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 129 130 120 121 61 125 37 38 122 62 32</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\cpu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110 111 113 112 114 116 115</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\comp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 72 61 42 37 63 38 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 123 61 42 125 37 38 127 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\mpu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 56 37 38 62 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\des.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 132 61 42 37 38 133 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\onewire.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110 111 113 112 114 116 41 61 42 109 125 37 38 62 108 32</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fpu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110 111 113 112 114 116 56 37 126</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\pwm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 42 55 125 37 38 62 59</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\qei.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 42 47 37 125 38 62 58</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\eeprom.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 43 44 61 125 37 38 39 62 32 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 44 61 125 37 38 39 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\emac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 42 37 51 38 54 32 62 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\epi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 49 61 42 125 37 38 50 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110 111 113 112 114 116 41 42 37 61 64 62 32 65 38</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\shamd5.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 42 56 68 37 38 62 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ssi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 42 34 125 37 38 62 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sw_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110 111 113 112 114 116 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sysctl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 56 125 37 44 115 38 62 32</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sysexc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 125 67 37 38 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\systick.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 56 37 38 62 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 42 125 37 117 38 62 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 35 61 42 125 37 38 36 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 42 71 37 125 38 62 69</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\usb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 42 37 125 119 38 62 32 60 131</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\udma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 125 37 70 38 62 60</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\watchdog.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 42 37 134 38 62 136</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\interrupt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 61 56 37 115 38 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 128 61 42 37 125 124 38 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\aes.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110 111 113 112 114 116 41 57 45 61 42 56 37 52 38 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\can.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 110 111 113 112 114 116 105 61 56 42 125 37 107 38 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ewarm\Exe\driverlib.a</name>
+            <inputs>
+                <tool>
+                    <name>IARCHIVE</name>
+                    <file> 84 87 94 85 95 91 78 81 89 77 79 96 86 80 83 82 88 93 97 90 92 73 74 75 76 106 101 103 98 102 104 99</file>
+                </tool>
+            </inputs>
+        </file>
     </configuration>
 </project>
